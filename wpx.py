@@ -64,7 +64,7 @@ else:
 	 	 	elif(continuar == "2"):
 	 	 		print("Bye, =)")
 	 	 		exit()
-	 	 elif('403' in conteudo):
+	 	 elif('<int>403</int>' in conteudo):
 	 	 	print("{}[{}]{} - {}:{} - Failed :(".format(cortempo,tempo,cortentativa,usuario,senha))
 	 	 elif('406' in conteudo):
 	 	 	print("{}[{}]{} - [WAF] Mod Security :(.".format(cortempo,tempo,cortentativa))
